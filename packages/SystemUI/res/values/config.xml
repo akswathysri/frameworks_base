@@ -71,7 +71,7 @@
     <bool name="config_showMin3G">false</bool>
 
     <!-- Show rotation lock toggle in System UI-->
-    <bool name="config_showRotationLock">true</bool>
+    <bool name="config_showRotationLock">false</bool>
 
     <!-- Vibration duration for GlowPadView used in SearchPanelView -->
     <integer translatable="false" name="config_vibration_duration">0</integer>
@@ -119,7 +119,7 @@
 
     <!-- The default tiles to display in QuickSettings -->
     <string name="quick_settings_tiles_default" translatable="false">
-        wifi,bt,inversion,dnd,cell,airplane,rotation,flashlight,location,cast,hotspot
+        wifi,bt,inversion,dnd,cell,airplane,flashlight,location,cast,hotspot
     </string>
 
     <!-- The tiles to display in QuickSettings -->
