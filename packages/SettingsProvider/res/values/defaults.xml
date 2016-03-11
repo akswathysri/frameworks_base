@@ -161,7 +161,7 @@
     <integer name="def_pointer_speed">0</integer>
 
     <!-- Default for DTMF tones enabled -->
-    <bool name="def_dtmf_tones_enabled">true</bool>
+    <bool name="def_dtmf_tones_enabled">false</bool>
     <!-- Default for UI touch sounds enabled -->
     <bool name="def_sound_effects_enabled">false</bool>
 
@@ -205,7 +205,7 @@
     <string name="def_device_name_simple">%1$s</string>
 
     <!-- Default for Settings.Secure.WAKE_GESTURE_ENABLED -->
-    <bool name="def_wake_gesture_enabled">true</bool>
+    <bool name="def_wake_gesture_enabled">false</bool>
 
     <!-- Default for Settings.Global.GUEST_USER_ENABLED -->
     <bool name="def_guest_user_enabled">false</bool>
