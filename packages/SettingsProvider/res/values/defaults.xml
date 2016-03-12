@@ -59,10 +59,10 @@
          pending notification -->
     <bool name="def_notification_pulse">false</bool>
 
-    <bool name="def_mount_play_notification_snd">true</bool>
+    <bool name="def_mount_play_notification_snd">false</bool>
     <bool name="def_mount_ums_autostart">false</bool>
     <bool name="def_mount_ums_prompt">true</bool>
-    <bool name="def_mount_ums_notify_enabled">true</bool>
+    <bool name="def_mount_ums_notify_enabled">false</bool>
 
     <!-- user interface sound effects -->
     <integer name="def_power_sounds_enabled">0</integer>
@@ -233,13 +233,13 @@
     <bool name="def_custom_sys_volume">false</bool>
 
     <!-- Ringtone Volume,its value is from 0 to 7,default value is 5 -->
-    <integer name="def_ringtone_volume" translatable="false">1</integer>
+    <integer name="def_ringtone_volume" translatable="false">0</integer>
 
     <!-- Music Volume,its value is from 0 to 15,default value is 11 -->
     <integer name="def_music_volume" translatable="false">0</integer>
 
     <!-- Voice Call Volume,its value is from 0 to 5,default value is 4 -->
-    <integer name="def_voice_call_volume" translatable="false">4</integer>
+    <integer name="def_voice_call_volume" translatable="false">1</integer>
 
     <!-- Alarm Volume,its value is from 0 to 7,default value is 6 -->
     <integer name="def_alarm_volume" translatable="false">0</integer>
@@ -254,7 +254,7 @@
     <integer name="def_music_headset_volume" translatable="false">0</integer>
 
     <!-- Voice Call headset Volume,its value is from 0 to 5,default value is 4 -->
-    <integer name="def_voice_call_headset_volume" translatable="false">4</integer>
+    <integer name="def_voice_call_headset_volume" translatable="false">1</integer>
 
     <!-- Alarm headset Volume,its value is from 0 to 7,default value is 6 -->
     <integer name="def_alarm_headset_volume" translatable="false">0</integer>
@@ -269,7 +269,7 @@
     <integer name="def_music_speaker_volume" translatable="false">0</integer>
 
     <!-- Voice Call speaker Volume,its value is from 0 to 5,default value is 4 -->
-    <integer name="def_voice_call_speaker_volume" translatable="false">4</integer>
+    <integer name="def_voice_call_speaker_volume" translatable="false">1</integer>
 
     <!-- Alarm speaker Volume,its value is from 0 to 7,default value is 6 -->
     <integer name="def_alarm_speaker_volume" translatable="false">0</integer>
