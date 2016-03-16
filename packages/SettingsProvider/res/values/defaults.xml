@@ -18,7 +18,7 @@
 -->
 <resources>
     <bool name="def_dim_screen">true</bool>
-    <integer name="def_screen_off_timeout">120000</integer>
+    <integer name="def_screen_off_timeout">360000</integer>
     <integer name="def_sleep_timeout">-1</integer>
     <bool name="def_airplane_mode_on">false</bool>
     <bool name="def_theater_mode_on">false</bool>
@@ -190,10 +190,10 @@
     <integer name="def_wifi_scan_always_available">0</integer>
 
     <!-- Default for Settings.Secure.LOCK_SCREEN_SHOW_NOTIFICATIONS, 1==on -->
-    <integer name="def_lock_screen_show_notifications">1</integer>
+    <integer name="def_lock_screen_show_notifications">0</integer>
 
     <!-- Default for Settings.Secure.LOCK_SCREEN_ALLOW_PRIVATE_NOTIFICATIONS -->
-    <bool name="def_lock_screen_allow_private_notifications">true</bool>
+    <bool name="def_lock_screen_allow_private_notifications">false</bool>
 
     <!-- Default for Settings.Global.HEADS_UP_NOTIFICATIONS_ENABLED, 1==on -->
     <integer name="def_heads_up_enabled">0</integer>
@@ -278,7 +278,7 @@
     <integer name="def_notification_speaker_volume" translatable="false">0</integer>
 
     <!-- Voice Call earpiece Volume,its value is from 0 to 5,default value is 4 -->
-    <integer name="def_voice_call_earpiece_volume" translatable="false">4</integer>
+    <integer name="def_voice_call_earpiece_volume" translatable="false">1</integer>
 
     <!-- Date format,yyyy-MM-dd: 2013/07/30; MM-dd-yyyy:07/30/2013; dd-MM-yyyy:30/07/2013 -->
     <string name="def_date_format" translatable="false"></string>
