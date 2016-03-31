@@ -185,10 +185,15 @@ public final class ShutdownThread extends Thread {
                     })
                     .setNegativeButton(com.android.internal.R.string.no, null)
                     .create();
-            closer.dialog = sConfirmDialog;
-            sConfirmDialog.setOnDismissListener(closer);
-            sConfirmDialog.getWindow().setType(WindowManager.LayoutParams.TYPE_KEYGUARD_DIALOG);
-            sConfirmDialog.show();
+            if (sConfirmDialog != null) {
+                closer.dialog = sConfirmDialog;
+                sConfirmDialog.setOnDismissListener(closer);
+                sConfirmDialog.getWindow().setType(WindowManager.LayoutParams.TYPE_KEYGUARD_DIALOG);
+                sConfirmDialog.show();
+            } else {
+                beginShutdownSequence(context);
+            }
+            
         } else {
             beginShutdownSequence(context);
         }
